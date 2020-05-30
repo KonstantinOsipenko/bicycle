@@ -83,7 +83,7 @@
           box-sizing: border-box;
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  padding-top: 50px;
+  padding-top: 25px;
   overflow-y: scroll;
 }
 .gallery__item--3:after {

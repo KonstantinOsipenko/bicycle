@@ -10,12 +10,5 @@
           justify-content: center;
   margin: auto;
   display: grid;
-  grid-template-rows: 5fr 20fr 1fr;
-}
-@media only screen and (max-width: 1180px) {
-  .gallery__item--2,
-  .gallery__item--4,
-  .gallery__item--8 {
-    padding-top: 10px;
-  }
+  grid-template-rows: 2fr 10fr 0.5fr;
 }
