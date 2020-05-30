@@ -1,0 +1,21 @@
+.body {
+  margin: 0;
+  font-family: 'DM Mono', monospace;
+}
+.wrapper {
+  max-width: 1600px;
+  min-width: 980px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 5fr 20fr 1fr;
+}
+@media only screen and (max-width: 1180px) {
+  .gallery__item--2,
+  .gallery__item--4,
+  .gallery__item--8 {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #f7f7f7;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-template-columns: 2.5fr 3fr;
+}
+.social_networks {
+  justify-self: start;
+}
+.adress {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: #848789;
+  font-family: "Lato - Italic";
+  font-size: 14px;
+}
+.city-adress {
+  font-size: 16px;
+  font-family: "Lato - Bold";
+  font-weight: 700;
+}
+.footer_socail_link,
+.link_mail {
+  text-decoration: none;
+  color: #848789;
+}
